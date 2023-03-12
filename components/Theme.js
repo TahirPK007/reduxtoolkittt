@@ -4,7 +4,7 @@ import {useSelector, useDispatch} from 'react-redux';
 import {changeTheme} from '../src/themeSlice';
 
 const Theme = () => {
-  const [color, setcolor] = useState('white');
+  const [color, setcolor] = useState('');
   const dispatch = useDispatch();
   return (
     <View>
